@@ -5,7 +5,7 @@ class TicketsController < ApplicationController
       tickets_sold: params[:tickets_sold],
     )
 
-    movie = Movie.where(id: tickets.movie_id).first
+    movie = Movie.find_by(id: tickets.movie_id)
 
     movie.tickets_remaining -= tickets.tickets_sold
     if movie.save

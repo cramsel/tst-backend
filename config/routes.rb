@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   post "/reports" => "reports#create"
 
   patch "/movies/:id" => "movies#update"
+
+  delete "/movies/:id" => "movies#destroy"
 end
