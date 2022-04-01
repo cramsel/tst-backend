@@ -1,2 +1,13 @@
 ###get the day's movies
 GET http://localhost:3000/movies
+
+###create new movie
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "movie_title": "test",
+  "runtime": 119,
+  "theater_number": 1,
+  "time_slot": "April 2 2022, 10:30 AM"
+}
