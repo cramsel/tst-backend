@@ -1,0 +1,2 @@
+###get the day's movies
+GET http://localhost:3000/movies
