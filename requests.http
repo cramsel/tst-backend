@@ -11,3 +11,12 @@ Content-Type: application/json
   "theater_number": 1,
   "time_slot": "April 2 2022, 10:30 AM"
 }
+
+###sell tickets
+POST http://localhost:3000/tickets
+Content-Type: application/json
+
+{
+  "movie_id": 4,
+  "tickets_sold": 60
+}
