@@ -23,3 +23,13 @@ Content-Type: application/json
 
 ###create report
 POST http://localhost:3000/reports
+
+###update movie
+PATCH http://localhost:3000/movies/4
+Content-Type: application/json
+
+{
+  "movie_title": "patch test",
+  "runtime": 300,
+  "time_slot": "April 3rd, 2022, 12PM"
+}
