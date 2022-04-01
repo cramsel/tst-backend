@@ -12,14 +12,14 @@ Movie.create(
   runtime: 121,
   theater_number: 1,
   time_slot: DateTime.new(2022, 4, 1, 10, 30),
-  ticket_sales: 56,
+  tickets_remaining: 56,
 )
 Movie.create(
   movie_title: "Pirates of the Caribbean: The Curse of the Black Pearl",
   runtime: 143,
   theater_number: 3,
   time_slot: DateTime.new(2022, 4, 1, 12, 30),
-  ticket_sales: 43,
+  tickets_remaining: 43,
 
 )
 Movie.create(
@@ -27,7 +27,7 @@ Movie.create(
   runtime: 179,
   theater_number: 2,
   time_slot: DateTime.new(2022, 4, 2, 10, 30),
-  ticket_sales: 75,
+  tickets_remaining: 1,
 )
 
 puts "Seeds planted"

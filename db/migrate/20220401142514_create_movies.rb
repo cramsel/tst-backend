@@ -6,7 +6,7 @@ class CreateMovies < ActiveRecord::Migration[7.0]
       t.integer "runtime"
       t.integer "theater_number"
       t.datetime "time_slot" #saved as year-month-day-hour-minute
-      t.integer "ticket_sales"
+      t.integer "tickets_remaining"
       t.timestamps
     end
   end

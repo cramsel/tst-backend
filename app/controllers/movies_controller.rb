@@ -11,7 +11,7 @@ class MoviesController < ApplicationController
       runtime: params[:runtime],
       theater_number: params[:theater_number],
       time_slot: DateTime.parse(params[:time_slot]),
-      ticket_sales: 0,
+      tickets_remaining: 75,
     )
     if movie.save
       render json: movie
