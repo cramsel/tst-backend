@@ -20,3 +20,6 @@ Content-Type: application/json
   "movie_id": 4,
   "tickets_sold": 60
 }
+
+###create report
+POST http://localhost:3000/reports

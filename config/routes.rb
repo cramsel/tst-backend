@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   post "/movies" => "movies#create"
   post "/tickets" => "tickets#create"
+  post "/reports" => "reports#create"
 end
